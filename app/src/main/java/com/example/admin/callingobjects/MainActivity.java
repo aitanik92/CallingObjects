@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView textview = new TextView(this);
-        textview.setText("Gaetanoogle <3");
+        textview.setText("Gaetanoogle");
         textview.setTextSize(18);
         setContentView(textview);
 
